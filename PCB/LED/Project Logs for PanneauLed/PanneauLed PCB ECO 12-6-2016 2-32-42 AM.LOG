@@ -1,0 +1,14 @@
+Removed Member From Class: ClassName=PanneauLed Member=Mofset1
+Removed Member From Class: ClassName=PanneauLed Member=MofsetDroite
+Added Component: Designator=STP55NF06L(STP55NF06L)
+Added Component: Designator=STP55NF06L(STP55NF06L)
+Added Pin To Net: NetName=DDROIT Pin=STP55NF06L-1
+Added Pin To Net: NetName=DGAUCHE Pin=STP55NF06L-1
+Added Pin To Net: NetName=GND DROIT Pin=STP55NF06L-2
+Added Pin To Net: NetName=GND GAUCHE Pin=STP55NF06L-2
+Added Pin To Net: NetName=GND Pin=STP55NF06L-3
+Added Pin To Net: NetName=GND Pin=STP55NF06L-3
+Added Member To Class: ClassName=PanneauLed Member=Component R31 RES
+Added Member To Class: ClassName=PanneauLed Member=Component R32 RES
+Added Member To Class: ClassName=PanneauLed Member=Component STP55NF06L
+Added Room: Name=PanneauLed

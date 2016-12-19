@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=DGAUCHE Pin=Rmof1-2
+Removed Pin From Net: NetName=DDROIT Pin=Rmofset2-2
+Removed Pin From Net: NetName=DDROIT Pin=STP55NF06L 2-1
+Removed Pin From Net: NetName=DGAUCHE Pin=STP55NF06L-1
+Change Component Designator: OldDesignator=Droit NewDesignator=CoLogique
+Change Component Designator: OldDesignator=Gauhe NewDesignator=JmpOneMatrix
+Change Component Designator: OldDesignator=IN+ NewDesignator=IN Cosse+
+Change Component Designator: OldDesignator=IN- NewDesignator=IN Cosse-
+Change Component Designator: OldDesignator=Out+ NewDesignator=OUT Cosse+
+Change Component Designator: OldDesignator=Out- NewDesignator=OUT Cosse-
+Change Component Designator: OldDesignator=Rmof1 NewDesignator=Rmofset1
+Added Component: Designator=Rm1(0805)
+Added Component: Designator=Rm2(0805)
+Added Pin To Net: NetName=DGAUCHE Pin=Rm1-2
+Added Pin To Net: NetName=DDROIT Pin=Rm2-2
+Added Pin To Net: NetName=NetRm1_1 Pin=Rm1-1
+Added Pin To Net: NetName=NetRm1_1 Pin=Rmofset1-2
+Added Pin To Net: NetName=NetRm1_1 Pin=STP55NF06L-1
+Added Net: Name=NetRm1_1
+Added Pin To Net: NetName=NetRm2_1 Pin=Rm2-1
+Added Pin To Net: NetName=NetRm2_1 Pin=Rmofset2-2
+Added Pin To Net: NetName=NetRm2_1 Pin=STP55NF06L 2-1
+Added Net: Name=NetRm2_1
+Added Member To Class: ClassName=PanneauLed Member=Component Rm1 RES
+Added Member To Class: ClassName=PanneauLed Member=Component Rm2 RES
+Added Member To Class: ClassName=PanneauLed Member=Component STP55NF06L

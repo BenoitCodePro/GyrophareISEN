@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=STP55NF06L NewDesignator=STP55NF06L 2
+Added Pin To Net: NetName=DDROIT Pin=STP55NF06L 2-1
+Added Pin To Net: NetName=GND DROIT Pin=STP55NF06L 2-2
+Added Pin To Net: NetName=GND Pin=STP55NF06L 2-3
+Added Member To Class: ClassName=PanneauLed Member=Component STP55NF06L 2 STP55NF06L
+Added Room: Name=PanneauLed

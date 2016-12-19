@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetLD34_K Pin=R31-1
+Removed Pin From Net: NetName=NetLD41_A Pin=R31-2
+Removed Pin From Net: NetName=NetLD35_K Pin=R32-1
+Removed Pin From Net: NetName=NetLD42_A Pin=R32-2
+Added Pin To Net: NetName=NetLD24_K Pin=R31-1
+Added Pin To Net: NetName=NetLD34_K Pin=R31-1
+Added Pin To Net: NetName=NetLD31_A Pin=R31-2
+Added Pin To Net: NetName=NetLD41_A Pin=R31-2
+Added Pin To Net: NetName=NetLD25_K Pin=R32-1
+Added Pin To Net: NetName=NetLD35_K Pin=R32-1
+Added Pin To Net: NetName=NetLD32_A Pin=R32-2
+Added Pin To Net: NetName=NetLD42_A Pin=R32-2
+Added Room: Name=PanneauLed
