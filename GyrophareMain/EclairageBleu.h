@@ -11,6 +11,7 @@
 #define ECLAIRAGEBLEU_H
 
 void EclairageBleuDef(int,int,int,int,int,int,int);
+void AnimationBleu(int,int);
 
 #endif /* ECLAIRAGEBLEU_H */
 
