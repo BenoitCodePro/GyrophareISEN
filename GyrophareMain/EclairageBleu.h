@@ -10,8 +10,11 @@
 #ifndef ECLAIRAGEBLEU_H
 #define ECLAIRAGEBLEU_H
 
-void EclairageBleuDef(int,int,int,int,int,int,int);
+
+//--Pin to Eclairage Gyrophare--//
+
 void AnimationBleu(int,int);
+void GyroDisplay(int);
 
 #endif /* ECLAIRAGEBLEU_H */
 
