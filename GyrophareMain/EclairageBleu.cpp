@@ -10,14 +10,11 @@
 
 void AnimationBleu(int num_Animation, int compt_Animation)
 { 
-
   //Les autres PIN.
-
   switch(num_Animation)
   {
     case 0 : //Gyrophare Eteind
-        {
-          
+        {          
           break;
         }
     case 1 : //annimation de 1 a 8
@@ -62,7 +59,7 @@ void GyroDisplay(int numberToDisplay)
    */
 
    //Traitement de numberToDisplay
-   
+    
     // take the latchPin low so 
     // the LEDs don't change while you're sending in bits:
     digitalWrite(latchPin, LOW);
