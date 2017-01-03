@@ -10,19 +10,43 @@
 
 void AnimationBleu(int num_Animation, int compt_Animation)
 { 
-
   //Les autres PIN.
-
   switch(num_Animation)
   {
-    case 0 : //Gyrophare Eteind
-        {
-          
+    case 0 : //INIT
+        { 
+          GyroDisplay(4095);
+          delay(200);
+          GyroDisplay(0);
+          delay(200);         
           break;
         }
     case 1 : //annimation de 1 a 8
         {
-          GyroDisplay(200);
+          GyroDisplay(1);
+          delay(200);
+          GyroDisplay(2);
+          delay(200);
+          GyroDisplay(4);
+          delay(200);
+          GyroDisplay(8);
+          delay(200);
+          GyroDisplay(16);
+          delay(200);
+          GyroDisplay(32);
+          delay(200);
+          GyroDisplay(64);
+          delay(200);
+          GyroDisplay(128);
+          delay(200);
+          GyroDisplay(256);
+          delay(200);
+          GyroDisplay(512);
+          delay(200);
+          GyroDisplay(1024);
+          delay(200);
+          GyroDisplay(2048);
+          delay(200);          
           break;
         }        
                   
@@ -61,8 +85,13 @@ void GyroDisplay(int numberToDisplay)
    * -
    */
 
+    if( (numberToDisplay-2047)>0) {digitalWrite(19,HIGH); numberToDisplay=numberToDisplay-2048;} else {digitalWrite(19,LOW);}
+    if( (numberToDisplay-1023)>0) {digitalWrite(18,HIGH); numberToDisplay=numberToDisplay-1024;} else {digitalWrite(18,LOW);}
+    if( (numberToDisplay-511)>0) {digitalWrite(17,HIGH); numberToDisplay=numberToDisplay-512;} else {digitalWrite(17,LOW);}
+    if( (numberToDisplay-255)>0) {digitalWrite(16,HIGH); numberToDisplay=numberToDisplay-256;} else {digitalWrite(16,LOW);} 
+
    //Traitement de numberToDisplay
-   
+    
     // take the latchPin low so 
     // the LEDs don't change while you're sending in bits:
     digitalWrite(latchPin, LOW);
@@ -72,6 +101,8 @@ void GyroDisplay(int numberToDisplay)
     //take the latch pin high so the LEDs will light up:
     digitalWrite(latchPin, HIGH);
     // pause before next value:
+
+
     delay(500);
 }
 
