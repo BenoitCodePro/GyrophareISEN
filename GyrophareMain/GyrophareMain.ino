@@ -33,6 +33,14 @@ void setup() {
   pinMode(19,OUTPUT); //19
   
 //--SetupBluetooth--//
+
+//--SetupButtonAndDisplay--//
+  pinMode(5,OUTPUT);//Led 1
+  pinMode(6,OUTPUT);//Led 2
+
+  pinMode(7,OUTPUT);//Button 1
+  pinMode(8,OUTPUT);//Button 2
+   
 //To fill....
 
 }
